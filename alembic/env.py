@@ -8,7 +8,7 @@ from alembic import context
 from dotenv import load_dotenv
 import os
 
-from db import Base
+from tables import Base
 
 load_dotenv()
 DATABASE_URL = os.environ['DB_URL']
